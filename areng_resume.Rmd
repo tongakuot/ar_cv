@@ -1,0 +1,210 @@
+---
+title: "Alier Reng's Resume"
+author: Alier Reng
+date: "`r Sys.Date()`"
+output:
+  pagedown::html_resume:
+    css: ['css/styles.css', 'resume']
+    # set it to true for a self-contained HTML page but it'll take longer to render
+    self_contained: true
+---
+
+```{r, include=FALSE}
+knitr::opts_chunk$set(
+  results='asis', 
+  echo = FALSE
+)
+
+library(glue)
+library(tidyverse)
+
+# Set this to true to have links turned into footnotes at the end of the document
+PDF_EXPORT <- FALSE
+
+# Holds all the links that were inserted for placement at the end
+links <- c()
+
+source('parsing_functions.R')
+
+# Load csv with position info
+position_data <- read_csv('resume_positions.csv')
+```
+
+
+```{r}
+# When in export mode the little dots are unaligned, so fix that. 
+if(PDF_EXPORT){
+  cat("
+  <style>
+  :root{
+    --decorator-outer-offset-left: -6.5px;
+  }
+  </style>")
+}
+```
+
+
+Aside
+================================================================================
+
+
+<!-- ![logo](beta_dist.png){width=100%} 
+
+```{r}
+# When in export mode the little dots are unaligned, so fix that. 
+if(PDF_EXPORT){
+  cat("View this CV online with links at _alierwaidatascience.com/cv_")
+} else {
+  cat("[<i class='fas fa-download'></i> Download a PDF of this CV](https://github.com/alierwai/ads_blog/blob/tree/main/cv/areng_cv.pdf)")
+}
+```
+-->
+
+
+CONTACT
+
+--------------------------------------------------------------------------------
+
+
+- <i class="fa fa-envelope"></i> tongakuot@icloud.com
+- <i class="fa fa-link"></i> [jongleiinstitute.com](https://jongleiinstitute.com/)
+- <i class="fa fa-github"></i> [github.com/alierwai](http://github.com/tongakuot)
+- <i class="fa fa-twitter"></i> [twitter.com/tongakuot](http://twitter.com/tongakuot)
+- <i class="fa fa-linkedin"></i> [linkedin.com/in/tongakuot/](https://www.linkedin.com/in/tongakuot/)
+
+
+
+SKILLS 
+
+--------------------------------------------------------------------------------
+
+- <i class="fa fa-laptop"></i> **Programming:**
+R, Python, PySpark, SQL, HTML, CSS
+
+\n
+- <i class="fa fa-toolbox"></i> **Tools:** R Shiny, PowerBI, Cognos, MIDAS+, RStudio, Jupiter Notebook, Microsoft (Word, Excel, PowerPoint), Spyder, PyCharm, Visual Studio Code
+
+\n
+- <i class="fa fa-terminal"></i> **Framework:**  R Shiny, Bootstrap, Django, WordPress
+
+\n
+- <i class="fa fa-file-code"></i> **R & Python Packages:** Tidyverse, tidyquant, lubridate, clock, ggplot2, Shiny, ggrepel, pagedown, xaringan, stationery, papaja, RMarkdown, gt, knitr, tidymodels, tinytex, pandas, numpy, matplotlib, seaborn, scikit-learn, scipy, sympy, BeautifulSoup, bokeh, skimr, Spacy, NLTk 
+
+\n
+- <i class="fa fa-code-branch"></i> **Version Control:** Github
+
+\n
+- <i class="fa fa-lightbulb"></i> **Other**: Data science, mathematics, statistics, teaching, data visualization with R Shiny, quantitative finance, machine learning, Natural Language Processing (NL)
+
+
+Disclaimer {#disclaimer}
+--------------------------------------------------------------------------------
+
+Made with the R package [**pagedown**](https://github.com/rstudio/pagedown). 
+
+The source code is available at [github.com/alierwai/ar_cv](https://github.com/tongakuot/ar_cv).
+
+See the full version of this CV with links at [jongleiinstitute.com/cv](https://jongleiinstitute.com/areng_cv.pdf).
+
+Last updated on `r Sys.Date()`.
+
+Main
+================================================================================
+
+Alier Reng {#title}
+--------------------------------------------------------------------------------
+Data science professional, statistician, and educator with over seven years of university teaching experience and about 5-year experience in healthcare analytics. Passionate about delivering quality data-driven results with efficiency and high accuracy. My research interest areas include data visualization with R Shiny and Natural Language Processing (NLP). 
+
+
+Industry Experience {data-icon=suitcase}
+--------------------------------------------------------------------------------
+
+```{r}
+print_section(position_data, 'industry-positions')
+```
+
+Teaching Experience {data-icon=chalkboard-teacher}
+--------------------------------------------------------------------------------
+
+```{r}
+print_section(position_data, 'teaching_positions')
+```
+
+:::aside
+
+ONLINE COURSES
+
+--------------------------------------------------------------------------------
+
+- **Business Science:** 
+[DS4B 202A-R: Shiny Developer with AWS](https://university.business-science.io/courses); [DS4B 101-R: Business Analysis With R](https://university.business-science.io/courses/); [DS4B 201-R: Data Science For Business With R]((https://university.business-science.io/courses/))
+
+- **Datacamp:** 
+[Machine Learning Scientist with R](https://learn.datacamp.com/career-tracks/machine-learning-scientist-with-r?version=1); [Data Scientist with R](https://learn.datacamp.com/career-tracks/data-scientist-with-r?version=4); [Data Scientist with Python](https://learn.datacamp.com/career-tracks/data-scientist-with-python?version=5); [Winning a Kaggle Competition in Python](https://learn.datacamp.com/courses/winning-a-kaggle-competition-in-python)
+
+- **Udemy:**
+[PySpark Essentials for Data Scientists (Big Data + Python)](https://www.udemy.com/course/pyspark-essentials-for-data-scientists-big-data-python/learn/lecture/19949088?start=0#overview);
+[Web Scraping and API Fundamentals in Python 2021](https://www.udemy.com/course/web-scraping-and-api-fundamentals-in-python/learn/lecture/18449576?start=135#overview);
+[Interactive Python Dashboards with Plotly and Dash](https://www.udemy.com/course/interactive-python-dashboards-with-plotly-and-dash/learn/lecture/10277000?start=0#overview);
+[Master in Microsoft Power BI Desktop and Service](https://www.udemy.com/course/power-bi-master-course/learn/lecture/21548182?start=0#overview)
+
+\n
+
+AWARDS & HONORS
+
+--------------------------------------------------------------------------------
+
+- **LifePoint Health**
+- Mercy Award (2020)
+
+\n
+
+- **The University of Texas at Dallas**
+- Louis Stokes Alliance for Minority Participation (LSAMP) Scholarship (2006 - 2007)
+
+\n
+
+- **Richland College (DCCCD)**
+- Vice President's List	(2005)
+
+:::
+
+Research Experience {data-icon=laptop}
+--------------------------------------------------------------------------------
+
+```{r}
+print_section(position_data, 'research_positions')
+```
+
+Education {data-icon=graduation-cap data-concise=true}
+--------------------------------------------------------------------------------
+
+```{r}
+print_section(position_data, 'education')
+```
+
+Leadership and Community Engagement {data-icon=user-tie}
+--------------------------------------------------------------------------------
+
+```{r}
+print_section(position_data, 'volunteer-positions')
+
+```{r}
+if(PDF_EXPORT){
+  cat("
+  
+Links {data-icon=link}
+--------------------------------------------------------------------------------
+
+<br>
+
+
+")
+  
+  walk2(links, 1:length(links), function(link, index){
+    print(glue('{index}. {link}'))
+  })
+}
+```
+
+

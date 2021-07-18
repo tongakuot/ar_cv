@@ -1,0 +1,27 @@
+section,in_cv,title,loc,institution,start,end,description_1,description_2,description_3,description_4, description_5
+education,TRUE,"MBA., Information Systems Management",LeTourneau University,"Longview, TX",2016,2017,NA,NA,NA
+education,TRUE,"M.S., Professional Science - Biostatistics",Middle Tennessee State University,"Murfreesboro, TN",2009,2011,NA,NA,NA
+education,TRUE,"B.S., Neuroscience",University of Texas at Dallas,"Richardson, TX",2005,2008,NA,NA,NA
+research_positions,TRUE,Undergraduate Research,University of Texas at Dallas,"Richardson, TX",2006,2007,Conducted LSAMP supported undergraduate research under Dr. Mohammed Abdelsalam at the University at Dallas and presented it at the University of Texas at El Paso.,Traced the Aswa Shear Zone using the Advanced Spaceborne Thermal Reflection and Radiometer (ASTER) Data and presented the findings during the LSAMP competition at the University of Texas at El Paso in 2007.,NA
+
+education,TRUE,"General Studies (Mathematics/PreMed/PrePharmacy)",Richland College (DCCCD),"Dallas, TX",2003,2005,NA,NA,NA
+
+research_positions,TRUE,Undergraduate Research,University of Texas at Dallas,"Richardson, TX",2006,2007,Conducted LSAMP supported undergraduate research under Dr. Mohammed Abdelsalam at the University at Dallas and presented it at the University of Texas at El Paso.,Traced the Aswa Shear Zone using the Advanced Spaceborne Thermal Reflection and Radiometer (ASTER) Data and presented the findings during the LSAMP competition at the University of Texas at El Paso in 2007.,NA
+
+teaching_positions,TRUE,"Lead Instructor, Data Science Program",Jonglei Institute of Technology,"Murfreesboro, TN",2020, Present,"Teach data science, elementary statistics, and introductory personal financial management courses with Python and R.", NA, NA
+teaching_positions,TRUE,Lecturer,Middle Tennessee State University,"Murfreesboro, TN",2011,2016,"Taught general math courses including plane trigonometry, applied calculus I, applied statistics/introductory statistics, finite mathematics, college algebra, mathematics for general studies (Mathematical Ideas), and Pre-Calculus (Pathways to Calculus).", "Turned 'F' students into 'A' and 'B' students through active and participatory learning; used hands-on approaches to make students conceptualize mathematical concepts to be able to construct meaningful mathematical statements.", "Helped challenged students to change their negative thinking into positive-possibility thinking through friendly coaching and mentorship."
+
+teaching_positions,TRUE,Graduate Teaching Assistant,Middle Tennessee State University,"Murfreesboro, TN",2009,2011,"Taught Applied Statistics and tutored both math and statistics.",NA,NA
+teaching_positions,TRUE,Classroom Teacher,Jebel Mara Primary School,"Kakuma Refugge Camp, Kenya",2001,2001,"Taught 8th-grade English and 7th-grade G.H.C (Government, History & Civic)",NA, NA
+
+industry-positions,TRUE,Senior Data Analyst, LifePoint Health,"Brentwood, TN", 2021, present,"Data Stewardship: perform monthly data validation to ensure data accuracy before being pushed to PowerBI for hospitals' use.", "Perform manual extraction of NHSN, CHOIS Mortality, and Truven data; clean and push the final reports to PowerBI.", "Perform exploratory and predictive analysis with Python and R.","Support and assist hospitals and the HSC departments with their data needs.","Create and modify divisions and hospitals' NHSN Goals, MOR, and QOC reports and dashboards using R, Python, and PowerBI."
+
+industry-positions,TRUE,Data Analyst, LifePoint Health,"Brentwood, TN", 2016, 2021,"Cut QOC and MOR decks production time by 80% by automating reports with R Shiny.","Reduced data errors and optimized accuracy by automating CHOIS monthly mortality reports with R Shiny.","Used R to automate the CMS company-wide VBP, HAC Penalty, and MSPB reports extraction processes."
+
+industry-positions,TRUE,Clinical Analytics Intern, Vanguard Health Systems, "Nashville, TN",2010,NA,"Used SPSS to analyze and perform correlation and predictive analysis on Hand Hygiene, CLABSI, and VAP to find potential best predictors of patient fall.","Created PowerPoint presentations for Quality Council Review.","Created Excel files for MIDAS+ Dictionaries and State Reporting on Healthcare Quality Measures required by each state."
+
+volunteer-positions,TRUE, President, Jonglei Institute of Technology,"Murfreesboro, TN", 2020,Present, "Run the day-to-day activities of the organization.", "Plan and implement programs to advance the company's mission & vision.","Write and maintain the company's legal documents, build and maintain the website."
+
+presentations,TRUE,Tracing the Aswa Shear Zone using the Advanced Spaceborne Thermal Reflection and Radiometer (ASTER) Data,"Poster & Oral Presentation, Undergraduate Research in Geology",University of Texas at El Paso,NA,2007,"Traced the Aswa Shear Zone using the Advanced Spaceborne Thermal Reflection and Radiometer (ASTER) Data and presented the findings during the LSAMP competition at the University of Texas at El Paso in 2007.",NA,NA
+
+
