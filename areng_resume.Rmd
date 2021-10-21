@@ -88,13 +88,13 @@ R, Python, PySpark, SQL, HTML, CSS
 - <i class="fa fa-terminal"></i> **Framework:**  R Shiny, Bootstrap, Django, WordPress
 
 \n
-- <i class="fa fa-file-code"></i> **R & Python Packages:** Tidyverse, tidyquant, lubridate, clock, ggplot2, Shiny, ggrepel, pagedown, xaringan, stationery, papaja, RMarkdown, gt, knitr, tidymodels, tinytex, pandas, numpy, matplotlib, seaborn, scikit-learn, scipy, sympy, BeautifulSoup, bokeh, skimr, Spacy, NLTk 
+- <i class="fa fa-file-code"></i> **R & Python Packages:** Tidyverse, tidyquant, lubridate, clock, ggplot2, Shiny, ggrepel, pagedown, xaringan, stationery, papaja, RMarkdown, gt, knitr, tidymodels, tinytex, pandas, numpy, matplotlib, seaborn, scikit-learn, scipy, sympy, BeautifulSoup, bokeh, skimr, Spacy
 
 \n
 - <i class="fa fa-code-branch"></i> **Version Control:** Github
 
 \n
-- <i class="fa fa-lightbulb"></i> **Other**: Data science, mathematics, statistics, teaching, data visualization with R Shiny, quantitative finance, machine learning, Natural Language Processing (NL)
+- <i class="fa fa-lightbulb"></i> **Other**: Data science, mathematics, statistics, teaching, data visualization with R Shiny, machine learning (ML), deep learning (DL), natural language processing (NLP)
 
 
 Disclaimer {#disclaimer}
@@ -102,9 +102,9 @@ Disclaimer {#disclaimer}
 
 Made with the R package [**pagedown**](https://github.com/rstudio/pagedown). 
 
-The source code is available at [github.com/alierwai/ar_cv](https://github.com/tongakuot/ar_cv).
+The source code is available at [github.com/tongakuot/ar_cv](https://github.com/tongakuot/ar_cv).
 
-See the full version of this CV with links at [jongleiinstitute.com/cv](https://jongleiinstitute.com/areng_cv.pdf).
+<!-- See the full version of this CV with links at [jongleiinstitute.com/cv](https://jongleiinstitute.com/areng_cv.pdf). -->
 
 Last updated on `r Sys.Date()`.
 
@@ -113,7 +113,7 @@ Main
 
 Alier Reng {#title}
 --------------------------------------------------------------------------------
-Data science professional, statistician, and educator with over seven years of university teaching experience and about 5-year experience in healthcare analytics. Passionate about delivering quality data-driven results with efficiency and high accuracy. My research interest areas include data visualization with R Shiny and Natural Language Processing (NLP). 
+Data science professional, statistician, and educator with over seven years of university teaching experience and about 5-year experience in healthcare analytics. Passionate about delivering quality data-driven results with efficiency and high accuracy. My research interests include data visualization with R Shiny, data science, deep learning, and natural language processing (NLP). 
 
 
 Industry Experience {data-icon=suitcase}
