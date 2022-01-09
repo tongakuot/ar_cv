@@ -53,9 +53,9 @@ Aside
 ```{r}
 # When in export mode the little dots are unaligned, so fix that. 
 if(PDF_EXPORT){
-  cat("View this CV online with links at _alierwaidatascience.com/cv_")
+  cat("View this CV online with links at _cushanalytics.com/cv_")
 } else {
-  cat("[<i class='fas fa-download'></i> Download a PDF of this CV](https://github.com/alierwai/ads_blog/blob/tree/main/cv/areng_cv.pdf)")
+  cat("[<i class='fas fa-download'></i> Download a PDF of this CV](https://github.com/tongakuot/ar_cv/blob/tree/main/cv/areng_cv.pdf)")
 }
 ```
 -->
@@ -67,7 +67,7 @@ CONTACT
 
 - <i class="fa fa-envelope"></i> tongakuot@icloud.com
 - <i class="fa fa-link"></i> [jongleiinstitute.com](https://jongleiinstitute.com/)
-- <i class="fa fa-github"></i> [github.com/alierwai](http://github.com/tongakuot)
+- <i class="fa fa-github"></i> [github.com/tongakuot](http://github.com/tongakuot)
 - <i class="fa fa-twitter"></i> [twitter.com/tongakuot](http://twitter.com/tongakuot)
 - <i class="fa fa-linkedin"></i> [linkedin.com/in/tongakuot/](https://www.linkedin.com/in/tongakuot/)
 
@@ -81,19 +81,19 @@ SKILLS
 R, Python, PySpark, SQL, HTML, CSS
 
 \n
-- <i class="fa fa-toolbox"></i> **Tools:** R Shiny, PowerBI, Cognos, MIDAS+, RStudio, Jupiter Notebook, Microsoft (Word, Excel, PowerPoint), Spyder, PyCharm, Visual Studio Code
+- <i class="fa fa-toolbox"></i> **Tools:** RStudio, Jupiter Notebook, R Shiny, PowerBI, Microsoft (Word, Excel, PowerPoint), Spyder, PyCharm, Visual Studio Code, Cognos 
 
 \n
-- <i class="fa fa-terminal"></i> **Framework:**  R Shiny, Bootstrap, Django, WordPress
+- <i class="fa fa-terminal"></i> **Framework:**  R Shiny, Django, WordPress
 
 \n
-- <i class="fa fa-file-code"></i> **R & Python Packages:** Tidyverse, tidyquant, lubridate, clock, ggplot2, Shiny, ggrepel, pagedown, xaringan, stationery, papaja, RMarkdown, gt, knitr, tidymodels, tinytex, pandas, numpy, matplotlib, seaborn, scikit-learn, scipy, sympy, BeautifulSoup, bokeh, skimr, Spacy, NLTk 
+- <i class="fa fa-file-code"></i> **R & Python Packages:** Tidyverse, tidyquant, lubridate, ggplot2, Shiny, ggrepel, pagedown, xaringan, stationery, papaja, RMarkdown, gt, knitr, tidymodels, tinytex, pandas, numpy, matplotlib, seaborn, scikit-learn, scipy, sympy, BeautifulSoup, bokeh, skimr, Spacy, NLTk 
 
 \n
 - <i class="fa fa-code-branch"></i> **Version Control:** Github
 
 \n
-- <i class="fa fa-lightbulb"></i> **Other**: Data science, mathematics, statistics, teaching, data visualization with R Shiny, quantitative finance, machine learning (ML), deep learning (DL), natural language processing (NLP)
+- <i class="fa fa-lightbulb"></i> **Other**: Data science, statistics, mathematics, teaching, data visualization with R Shiny, quantitative finance, machine learning (ML), deep learning (DL), natural language processing (NLP)
 
 
 Disclaimer {#disclaimer}
@@ -112,7 +112,7 @@ Main
 
 Alier Reng {#title}
 --------------------------------------------------------------------------------
-Data science professional, statistician, and educator with over seven years of university teaching experience and about 5-year experience in healthcare analytics. Passionate about delivering quality data-driven results with efficiency and high accuracy. My research interests include data visualization with R Shiny, data science, deep learning, and natural language processing (NLP). 
+Data science professional, statistician, and educator with over 5-year experience in healthcare analytics and more than seven years of university teaching experience. Passionate and results-oriented data scientist with a proven record of project completion with efficiency and speed. Areas of interest include data visualization with R Shiny, data science, statistics, and natural language processing (NLP).  
 
 
 Industry Experience {data-icon=suitcase}
@@ -127,6 +127,14 @@ Teaching Experience {data-icon=chalkboard-teacher}
 
 ```{r}
 print_section(position_data, 'teaching_positions')
+```
+
+
+Research Experience {data-icon=laptop}
+--------------------------------------------------------------------------------
+
+```{r}
+print_section(position_data, 'research_positions')
 ```
 
 :::aside
@@ -148,7 +156,6 @@ ONLINE COURSES
 [Master in Microsoft Power BI Desktop and Service](https://www.udemy.com/course/power-bi-master-course/learn/lecture/21548182?start=0#overview)
 [NLP - Natural Language Processing with Python](https://www.udemy.com/course/nlp-natural-language-processing-with-python)
 
-\n
 
 AWARDS & HONORS
 
@@ -157,7 +164,7 @@ AWARDS & HONORS
 - **LifePoint Health**
 - Mercy Award (2020)
 
-\n
+\n\n
 
 - **The University of Texas at Dallas**
 - Louis Stokes Alliance for Minority Participation (LSAMP) Scholarship (2006 - 2007)
@@ -168,13 +175,6 @@ AWARDS & HONORS
 - Vice President's List	(2005)
 
 :::
-
-Research Experience {data-icon=laptop}
---------------------------------------------------------------------------------
-
-```{r}
-print_section(position_data, 'research_positions')
-```
 
 Education {data-icon=graduation-cap data-concise=true}
 --------------------------------------------------------------------------------
