@@ -66,7 +66,8 @@ CONTACT
 
 
 - <i class="fa fa-envelope"></i> tongakuot@icloud.com
-- <i class="fa fa-link"></i> [jongleiinstitute.com](https://jongleiinstitute.com/)
+<!-- - <i class="fa fa-link"></i> [Portfolio](https://alierreng.com/) -->
+- <i class="fa fa-link"></i> [cushanalytics.com](https://cushanalytics.com/)
 - <i class="fa fa-github"></i> [github.com/tongakuot](http://github.com/tongakuot)
 - <i class="fa fa-twitter"></i> [twitter.com/tongakuot](http://twitter.com/tongakuot)
 - <i class="fa fa-linkedin"></i> [linkedin.com/in/tongakuot/](https://www.linkedin.com/in/tongakuot/)
@@ -81,19 +82,19 @@ SKILLS
 R, Python, PySpark, SQL, HTML, CSS
 
 \n
-- <i class="fa fa-toolbox"></i> **Tools:** RStudio, Jupiter Notebook, R Shiny, PowerBI, Microsoft (Word, Excel, PowerPoint), Spyder, PyCharm, Visual Studio Code, Cognos 
+- <i class="fa fa-toolbox"></i> **Tools:** RStudio, Jupiter Notebook, R Shiny, PowerBI, Microsoft (Word, Excel, PowerPoint), Visual Studio Code, Cognos 
 
 \n
 - <i class="fa fa-terminal"></i> **Framework:**  R Shiny, Django, WordPress
 
 \n
-- <i class="fa fa-file-code"></i> **R & Python Packages:** Tidyverse, tidyquant, lubridate, ggplot2, Shiny, ggrepel, pagedown, xaringan, stationery, papaja, RMarkdown, gt, knitr, tidymodels, tinytex, pandas, numpy, matplotlib, seaborn, scikit-learn, scipy, sympy, BeautifulSoup, bokeh, skimr, Spacy, NLTk 
+- <i class="fa fa-file-code"></i> **R & Python Packages:** Tidyverse, tidyquant, lubridate, ggplot2, Shiny, ggrepel, pagedown, xaringan, stationery, papaja, RMarkdown, gt, knitr, skimr, tidymodels, tinytex, pandas, numpy, matplotlib, seaborn, scikit-learn, sympy, BeautifulSoup, Spacy
 
 \n
 - <i class="fa fa-code-branch"></i> **Version Control:** Github
 
 \n
-- <i class="fa fa-lightbulb"></i> **Other**: Data science, statistics, mathematics, teaching, data visualization with R Shiny, quantitative finance, machine learning (ML), deep learning (DL), natural language processing (NLP)
+- <i class="fa fa-lightbulb"></i> **Other**: Data science, statistics, mathematics, teaching, data visualization with R Shiny, time series, machine learning (ML), deep learning (DL), natural language processing (NLP)
 
 
 Disclaimer {#disclaimer}
@@ -112,7 +113,7 @@ Main
 
 Alier Reng {#title}
 --------------------------------------------------------------------------------
-Data science professional, statistician, and educator with over 5-year experience in healthcare analytics and more than seven years of university teaching experience. Passionate and results-oriented data scientist with a proven record of project completion with efficiency and speed. Areas of interest include data visualization with R Shiny, data science, statistics, and natural language processing (NLP).  
+Data science professional, statistician, and educator with over 5-year experience in healthcare analytics and more than seven years of university teaching experience. Passionate and results-oriented data scientist with a proven record of project completion with efficiency and speed. Areas of interest include data science, statistics, and deep learning.  
 
 
 Industry Experience {data-icon=suitcase}
