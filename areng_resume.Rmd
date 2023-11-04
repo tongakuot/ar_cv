@@ -67,10 +67,10 @@ CONTACT
 
 
 - <i class="fa fa-envelope"></i> tongakuot@icloud.com
-<!-- - <i class="fa fa-link"></i> [Portfolio](https://alierreng.com/) -->
-- <i class="fa fa-link"></i> [cushanalytics.com](https://cushanalytics.com/)
+- <i class="fa fa-link"></i> [Projects](https://alierwai.org/project)
+- <i class="fa fa-link"></i> [alierwai.org](https://www.alierwai.org/)
 - <i class="fa fa-github"></i> [github.com/tongakuot](http://github.com/tongakuot)
-- <i class="fa fa-twitter"></i> [twitter.com/tongakuot](http://twitter.com/tongakuot)
+- <i class="fa fa-youtube"></i> [@AlierwaiDataStudio](http://youtube.com/@AlierwaiDataStudio)
 - <i class="fa fa-linkedin"></i> [linkedin.com/in/tongakuot/](https://www.linkedin.com/in/tongakuot/)
 
 
@@ -80,22 +80,22 @@ SKILLS
 --------------------------------------------------------------------------------
 
 - <i class="fa fa-laptop"></i> **Programming:**
-R, Python, PySpark, SQL, HTML, CSS
+R, Python, SQL
 
 \n
-- <i class="fa fa-toolbox"></i> **Tools:** RStudio, Jupiter Notebook, R Shiny, PowerBI, Microsoft (Word, Excel, PowerPoint), Visual Studio Code, Cognos 
+- <i class="fa fa-toolbox"></i> **Tools:** RStudio, VS Code, Quarto, Jupiter Notebook, JupyterLab,  R Shiny, PowerBI, Microsoft (Word, Excel, PowerPoint)
 
 \n
-- <i class="fa fa-terminal"></i> **Framework:**  R Shiny, Django, WordPress
+- <i class="fa fa-terminal"></i> **Framework:**  R Shiny, Quarto
 
 \n
-- <i class="fa fa-file-code"></i> **R & Python Packages:** Tidyverse, tidyquant, lubridate, ggplot2, Shiny, ggrepel, pagedown, xaringan, stationery, papaja, RMarkdown, gt, knitr, skimr, tidymodels, tinytex, pandas, numpy, matplotlib, seaborn, scikit-learn, sympy, BeautifulSoup, Spacy
+- <i class="fa fa-file-code"></i> **R & Python Packages:** Tidyverse, Quarto, Shiny, pagedown, papaja, RMarkdown, Plotly R, gt, geExtras, tidymodels, pandas, numpy, matplotlib, seaborn, scikit-learn, sympy, Polars, BeautifulSoup, PyTorch
 
 \n
 - <i class="fa fa-code-branch"></i> **Version Control:** Github
 
 \n
-- <i class="fa fa-lightbulb"></i> **Other**: Data science, statistics, mathematics, teaching, data visualization with R Shiny, time series, machine learning (ML), deep learning (DL), natural language processing (NLP)
+- <i class="fa fa-lightbulb"></i> **Other**: Data science, statistics, mathematics, teaching, data visualization with R Shiny, time series, deep learning (DL)
 
 
 Disclaimer {#disclaimer}
@@ -114,7 +114,7 @@ Main
 
 Alier Reng {#title}
 --------------------------------------------------------------------------------
-Data science professional, statistician, and educator with over 5-year experience in healthcare analytics and more than seven years of university teaching experience. Passionate and results-oriented data scientist with a proven record of project completion with efficiency and speed. Areas of interest include data science, statistics, and deep learning. 
+A seasoned data scientist and dedicated educator with over seven years of healthcare analytics experience and over five years of university teaching experience. A results-oriented professional known for efficiently delivering successful projects. Areas of expertise encompass data science, statistics, and deep learning. Passionate about leveraging these skills to drive innovation and make a positive impact.
 
 
 Industry Experience {data-icon=suitcase}
@@ -131,7 +131,11 @@ Teaching Experience {data-icon=chalkboard-teacher}
 print_section(position_data, 'teaching_positions')
 ```
 
+:::aside
 
+- I am passionate about data science and statistics education with R and Python. I understand that numerous people worldwide, especially in my home country of South Sudan, want to learn but have limited resources.
+
+:::
 
 <!-- Research Experience {data-icon=laptop} -->
 <!-- -------------------------------------------------------------------------------- -->
@@ -149,23 +153,6 @@ print_section(position_data, 'education')
 
 :::aside
 
-ONLINE COURSES
-
---------------------------------------------------------------------------------
-
-- **Business Science:** 
-[DS4B 202A-R: Shiny Developer with AWS](https://university.business-science.io/courses); [DS4B 101-R: Business Analysis With R](https://university.business-science.io/courses/); [DS4B 201-R: Data Science For Business With R]((https://university.business-science.io/courses/))
-
-- **Datacamp:** 
-[Machine Learning Scientist with R](https://learn.datacamp.com/career-tracks/machine-learning-scientist-with-r?version=1); [Data Scientist with R](https://learn.datacamp.com/career-tracks/data-scientist-with-r?version=4); [Data Scientist with Python](https://learn.datacamp.com/career-tracks/data-scientist-with-python?version=5); [Winning a Kaggle Competition in Python](https://learn.datacamp.com/courses/winning-a-kaggle-competition-in-python)
-
-- **Udemy:**
-[PySpark Essentials for Data Scientists (Big Data + Python)](https://www.udemy.com/course/pyspark-essentials-for-data-scientists-big-data-python/learn/lecture/19949088?start=0#overview);
-[Web Scraping and API Fundamentals in Python 2021](https://www.udemy.com/course/web-scraping-and-api-fundamentals-in-python/learn/lecture/18449576?start=135#overview);
-[Interactive Python Dashboards with Plotly and Dash](https://www.udemy.com/course/interactive-python-dashboards-with-plotly-and-dash/learn/lecture/10277000?start=0#overview);
-[Master in Microsoft Power BI Desktop and Service](https://www.udemy.com/course/power-bi-master-course/learn/lecture/21548182?start=0#overview)
-
-\n
 
 AWARDS & HONORS
 
@@ -191,6 +178,7 @@ Leadership and Community Engagement {data-icon=user-tie}
 
 ```{r}
 print_section(position_data, 'volunteer-positions')
+```
 
 ```{r}
 
